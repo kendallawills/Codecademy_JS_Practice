@@ -70,3 +70,11 @@ const finalGrade = (homework, midterm, final) => {
 }
 
 console.log(finalGrade(99, 92, 95));
+
+// Reporting for Duty
+
+const reportingForDuty = (rank, lastName) => {
+    return `${rank} ${lastName} reporting for duty!`;
+}
+
+console.log(reportingForDuty('Private', 'Fido'));
