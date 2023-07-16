@@ -128,3 +128,9 @@ const numImaginaryFriends = totalFriends => Math.ceil(totalFriends * 0.25);
 
 console.log(numImaginaryFriends(20));
 console.log(`You had ${numImaginaryFriends(10)} imaginary friends.`);
+
+// Silly Sentence
+
+const sillySentence = (adjective, verb, noun) => `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
+
+console.log(sillySentence('excited', 'love', 'functions'));
