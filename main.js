@@ -78,3 +78,13 @@ const reportingForDuty = (rank, lastName) => {
 }
 
 console.log(reportingForDuty('Private', 'Fido'));
+
+// Roll the Dice
+
+const rollTheDice = () => {
+    let die1 = Math.floor(Math.random() * 6) + 1;
+    let die2 = Math.floor(Math.random() * 6) + 1;
+    return die1 + die2;
+}
+
+console.log(rollTheDice());
