@@ -122,3 +122,9 @@ const truthyOrFalsy = (value) => {
 
 console.log(truthyOrFalsy(0));
 
+// Imaginary Friends
+
+const numImaginaryFriends = totalFriends => Math.ceil(totalFriends * 0.25);
+
+console.log(numImaginaryFriends(20));
+console.log(`You had ${numImaginaryFriends(10)} imaginary friends.`);
