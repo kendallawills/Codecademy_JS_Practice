@@ -48,3 +48,25 @@ const lifePhase = age => {
 }
 
 console.log(lifePhase(5));
+
+// Final Grade
+
+const finalGrade = (homework, midterm, final) => {
+    if ((homework < 0 || homework > 100) || (midterm < 0 || midterm > 100) || (final < 0 || final > 100)) {
+        return 'You have entered an invalid grade.';
+    }
+    const average = (homework + midterm + final) / 3;
+    if (average < 60) {
+        return 'F';
+    } else if (average < 70) {
+        return 'D';
+    } else if (average < 80) {
+        return 'C';
+    } else if (average < 90) {
+        return 'B';
+    } else if (average < 100) {
+        return 'A';
+    }
+}
+
+console.log(finalGrade(99, 92, 95));
